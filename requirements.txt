@@ -1,0 +1,4 @@
+Flask==3.0.3
+groq==0.37.1
+python-dotenv==1.2.1
+gunicorn==21.2.0
