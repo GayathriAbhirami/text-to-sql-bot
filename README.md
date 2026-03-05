@@ -6,9 +6,33 @@ Convert natural language questions to SQL queries using Groq AI.
 - Natural language to SQL conversion
 - Beautiful modern UI
 - Powered by Groq's Llama 3.3 70B model
-- SQLite database with employee data
+- In-memory SQLite database with employee data
 
-## Deploy to Render (Free)
+## Deploy to Vercel (Recommended - Free & Fast)
+
+### Quick Deploy
+1. Push your code to GitHub (already done!)
+2. Go to https://vercel.com
+3. Sign up/login with GitHub
+4. Click "Add New" → "Project"
+5. Import your repository: `GayathriAbhirami/text-to-sql-bot`
+6. Vercel auto-detects settings from `vercel.json`
+7. Add Environment Variable:
+   - Key: `GROQ_API_KEY`
+   - Value: Your Groq API key
+8. Click "Deploy"
+9. Done! Your app is live in ~1 minute
+
+Your app will be at: `https://your-project-name.vercel.app`
+
+### Using Vercel CLI (Alternative)
+```bash
+npm i -g vercel
+vercel login
+vercel
+```
+
+## Deploy to Render (Alternative)
 
 ### Step 1: Push to GitHub
 1. Create a new repository on GitHub
